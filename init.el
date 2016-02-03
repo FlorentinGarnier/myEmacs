@@ -5,11 +5,12 @@
 (require 'myPackageRepo)
 (require 'myPackageList)
 (require 'myInterface)
+(require 'myKeyBinding)
 (require 'mySmexConf)
 (require 'myAutoCompleteConf)
-(require 'myNlinumConf)
 (require 'myAutoPairConf)
 (require 'myUndoTreeConf)
 (require 'myAceJump)
 (require 'myPowerLineConf)
+;;(require 'myNlinumConf)
 
