@@ -12,5 +12,5 @@
 (require 'myUndoTreeConf)
 (require 'myAceJump)
 (require 'myPowerLineConf)
-;;(require 'myNlinumConf)
+(require 'myMmmConf)
 
