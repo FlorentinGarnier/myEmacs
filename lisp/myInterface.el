@@ -20,4 +20,5 @@
 (windmove-default-keybindings)
 (load-theme 'monokai t)
 (global-nlinum-mode)
+(global-flycheck-mode)
 (provide 'myInterface)
