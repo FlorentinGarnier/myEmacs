@@ -1,6 +1,10 @@
-;;init.el
+;;; init.el --- This is where everything start
+;;; Commentary:
 
-(add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
+;;; Code:
+
+
+(add-to-list 'load-path "~/.emacs.d/lisp/")
 
 (require 'myPackageRepo)
 (require 'myPackageList)
@@ -12,6 +16,7 @@
 (require 'myUndoTreeConf)
 (require 'myAceJump)
 (require 'myPowerLineConf)
-;;(require 'myMmmConf)
 (require 'myWebModeConf)
+
+;;; init.el ends here
 
