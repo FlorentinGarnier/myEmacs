@@ -1,4 +1,8 @@
-;;myPackageRepo.el
+;;; myPackageRepo.el --- Configuration of Emacs Repo
+
+;;; Commentary:
+
+;;; Code:
 
 (require 'package)
 (add-to-list 'package-archives
@@ -14,3 +18,5 @@
 (package-initialize)
 
 (provide 'myPackageRepo)
+
+;;; myPackageRepo.el ends here
