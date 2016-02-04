@@ -11,7 +11,7 @@
     flycheck
     js2-mode
     ac-js2
-    ac-htm
+    ac-html
     ac-html-bootstrap
     monokai-theme
     autopair
