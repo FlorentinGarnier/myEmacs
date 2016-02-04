@@ -1,4 +1,6 @@
-;;myPackageList.el
+;;; myPackageList.el --- List and install all needed package
+;;; Commentary:
+;;; Code:
 
 (require 'cl)
 (defvar myPackage
@@ -19,7 +21,8 @@
     undo-tree
     smex
     nlinum
-    web-mode)"My list of requested packages")
+    web-mode
+    magit)"My list of requested packages")
 
 ;;Checking of all package are installed
 
@@ -38,3 +41,4 @@
       (package-install p))))
 
 (provide 'myPackageList)
+;;; myPackageList.el ends here
