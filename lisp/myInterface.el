@@ -1,7 +1,6 @@
-;;myInterface.el
-;;Created by Florentin Garnier <garnier.florentin@glail.com
-;;Created date : 2016-02-02
-;;Modified date : 2016-02-02
+;;; myInterface.el --- Summary
+;;; Commentary:
+;;; Code:
 
 (setq use-file-dialog nil)
 (setq use-dialog-box nil)
@@ -22,3 +21,5 @@
 (global-nlinum-mode)
 (global-flycheck-mode)
 (provide 'myInterface)
+
+;;; myInterface.el ends here

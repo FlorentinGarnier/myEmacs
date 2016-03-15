@@ -1,3 +1,7 @@
+;;; myWebModeCOnf.el --- Summary
+;;; Commentary:
+;;; Code:
+
 
 (require 'web-mode)
 (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
@@ -8,4 +12,7 @@
 (add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
 (provide 'myWebModeConf)
+
+;;; myWebModeCOnf.el Ends here
