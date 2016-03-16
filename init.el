@@ -17,6 +17,7 @@
 (require 'myAceJump)
 (require 'myPowerLineConf)
 (require 'myWebModeConf)
+(require 'myMagit)
 
 ;;; init.el ends here
 
